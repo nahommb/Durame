@@ -1,0 +1,107 @@
+body{
+    position: absolute;
+}
+.ii{
+display: flex;
+
+}
+.lal{
+    display: flex;   
+}
+.pic1{
+background-image: url(/images/h1.jpg);
+background-position: center;
+background-size: cover;
+height: 400px;
+width: 480px;
+margin-right: 10px;
+border-radius: 10px;
+margin-bottom: 10px;
+margin-left: 20px;
+
+
+}
+.pic2{
+    background-image: url(/images/h2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    
+    }
+  .pic3{
+        background-image: url(/images/h3.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        width: 480px;
+        background-color: rgba(19, 201, 59, 0.664);
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right: 20px;
+        
+        }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+        .pic1,.pic2,.pic3{
+            border: 2px solid #08a3eb;
+        }
+@media(max-width:500px){
+    .ii{
+       display: block;
+    }
+    .pic1{
+        display: inline-block;
+        width: 50%;
+        height: 250px;
+        margin-left: 5%;
+    }
+    .pic2{
+        display: inline-block;
+        width: 50%;
+        height: 250px;
+        margin-right: 30px;
+    }
+    .pic3{
+        margin-left: 0px;
+        display: block;
+        width: 87%;
+        height: 400px;
+        margin-left: 5%;
+  
+    }
+}
+@media(min-width:501px) and (max-width:1000px){
+    .ii{
+       display: block;
+    }
+    .pic1{
+        display: inline-block;
+        width: 50%;
+        height: 300px;
+        margin-left: 5%;
+    }
+    .pic2{
+        display: inline-block;
+        width: 50%;
+        height: 300px;
+        margin-right: 30px;
+    }
+    .pic3{
+        margin-left: 0px;
+        display: block;
+        width: 92%;
+        height: 450px;
+        margin-left: 5%;
+  
+    }
+}
+.abt{
+    color: rgb(23, 102, 212);
+}

@@ -1,0 +1,129 @@
+
+body{
+    margin: 0px;
+    border-radius: 20px;
+   
+}
+p{
+    text-align: justify;
+}
+h2,h3{
+    color: #62CDFF;
+}
+.navbar{
+    background-color: #62CDFF;
+    background-image: linear-gradient(to bottom,#62CDFF,white);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    
+}
+.destext{
+    position: absolute;
+    top: 120px; 
+    color:#0A4D68;
+    font-weight: 150px;
+    font-size: 70px;
+    left: 10px;
+    text-align: center;
+}
+.right-end{
+    display: flex;
+    align-items: center;
+}
+.hm{
+    margin-left: 20px;
+    font-size: 25px;
+    color: white;  
+    font-family: 'Oswald', sans-serif;
+}
+.gl,.abt{
+    margin-right: 20px;
+    font-size: 20px;
+    color: white; 
+    font-family: 'Oswald', sans-serif;
+}
+.lc{
+    margin-right: 35px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.tppic{ 
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-image: url("/images/earth.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+   
+}
+.ftr{
+    background-color: #2D2727;
+    color: #a38b2a;
+}
+.bta{
+    text-decoration: none;
+    color: #948135;
+    margin: 15px;
+}
+.bta:hover{
+    color: #e8c01f;
+}
+.icimg{
+    align-items: center; 
+    width: 25px; 
+    height: 25px;
+    margin: 5px;
+    margin-top: 0px;
+    opacity: 0.8;
+}
+.icimg:hover{
+    opacity:1;
+}
+@media(max-width:500px){
+    .hm{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 25px;
+        color: white;  
+       
+    }
+    .gl,.abt,.lc{
+        font-size: 15px;
+    }
+    .icimg{
+        width: 15px;
+        height: 15px;
+        
+    }
+    .ictext{
+        font-size: 10px;
+    }
+}
+.hm:hover{
+    font-weight: bolder;
+   
+}
+.gl:hover{
+    font-weight: bold;
+}
+.abt:hover{
+    font-weight: bold;
+}
+.lc:hover{
+    font-weight: bold;
+}
+
+iframe{
+    position: absolute;
+    width: 100vw;
+    height: calc( 100vh - 20px);
+}

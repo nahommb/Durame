@@ -1,0 +1,222 @@
+body{
+    position: absolute;
+}
+.container{
+    display: flex;
+    justify-items: space-between;
+
+}
+.part1{
+    display: flex;   
+}
+.n1{
+
+margin-right: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+background-image: url(/images/food1.jpg);
+background-size: cover;
+
+}
+.n2{
+   
+    border-radius: 5px;
+    background-image:url(/images/food2.jpg);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    
+    }
+  .n3{
+        background-image:url(/images/food3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        
+        margin-left: 10px;
+        border-radius: 5px;
+        }
+.clothes1{
+  
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-image: url(/images/boy2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    }
+.clothes2{
+   
+    background-image:url(/images/girl1.jpg);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    
+    }
+.clothes3{
+    background-image: url(/images/boy1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+    }
+.clothes4{
+     
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-image: url(/images/girl3.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        }
+.clothes5{
+       
+        background-image:url(/images/girl4.jpg);
+        border-radius: 5px;
+        margin-bottom: 10px;
+        background-size: cover;
+        background-position: center;
+        
+        }
+.clothes6{
+        background-image: url(/images/girl2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        border-radius: 5px;
+        margin-left: 10px;
+        
+        }
+        .nature1{
+
+            margin-right: 10px;
+            margin-bottom: 10px;
+            background-image: url(/images/nature1.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 5px;
+            }
+        .nature2{
+            
+            background-image:url(/images/nature2.jpg);
+            border-radius: 5px;
+            margin-bottom: 10px;
+            background-size: cover;
+            background-position: center;
+            
+            }
+        .nature3{
+            background-image: url(/images/nature3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        
+            border-radius: 5px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            }
+.n1,.clothes1,.clothes4,.nature1,.n2,.clothes2,.clothes5,.nature2,.n3,.clothes3,.clothes6,.nature3{
+         height: 400px;
+         width: 473px;
+            }
+.n1,.clothes1,.clothes4,.nature1,.n2,.clothes2,.clothes5,.nature2,.n3,.clothes3,.clothes6,.nature3{
+    border: 2px solid #08a3eb;
+
+} 
+.vp2{
+    margin-left: 34px;
+}
+video{
+    border: 2px solid  #08a3eb;
+}
+@media(max-width:500px){
+    .container{
+       display: block;
+    }
+    .n1,.clothes1,.clothes4,.nature1{
+        height: 150px;
+        display: inline-block;
+        width: 50%;
+    }
+    .n2,.clothes2,.clothes5,.nature2{
+        height: 150px;
+        display: inline-block;
+        width: 50%;
+    }
+    .n3,.clothes3,.clothes6,.nature3{
+        height: 200px;
+        margin-left: 0px;
+        display: block;
+        width: 99%;
+    }
+    video{
+        width: 100%;
+    }
+    .vp2{
+        margin-left: 18px;
+    }
+}
+@media(min-width:501px) and (max-width:850px){
+    .container{
+       display: block;
+    }
+    .n1,.clothes1,.clothes4,.nature1{
+        height: 300px;
+        display: inline-block;
+        width: 50%;
+    }
+    .n2,.clothes2,.clothes5,.nature2{
+        height: 300px;
+        display: inline-block;
+        width: 50%;
+    }
+    .n3,.clothes3,.clothes6,.nature3{
+        height: 400px;
+        margin-left: 0px;
+        display: block;
+        width: 100%;
+    }
+    .vp2{
+        margin-left: 18px;
+    }
+}
+
+@media(min-width:851px) and (max-width:1120px){
+    .container{
+       display: block;
+    }
+    .n1,.clothes1,.clothes4,.nature1{
+        height: 600px;
+        
+        width: 50%;
+    }
+    .n2,.clothes2,.clothes5,.nature2{
+        height: 600px;
+        
+        width: 50%;
+    }
+    .n3,.clothes3,.clothes6,.nature3{
+        height: 600px;
+        margin-left: 0px;
+       
+        width: 100%;
+    }
+    .vp2{
+        margin-left: 25px;
+    }
+}
+.vid{
+    display: flex; 
+    align-items: center;
+}
+
+.gl{
+    color: rgb(23, 102, 212);
+}
